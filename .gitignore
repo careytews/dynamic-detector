@@ -1,0 +1,8 @@
+/detector
+/vendor
+/go
+.*
+!.gitignore
+!.dockerignore
+*~
+dynamic-detector

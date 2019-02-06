@@ -1,0 +1,51 @@
+{
+      "id": "9",
+      "operator": "AND",
+      "indicator": {
+        "id": "43cef9e2-2966-466f-9fcb-2b666567e875",
+        "description": "Hacking",
+        "source": "https://tnw",
+        "author": "david",
+        "category": "hacking",
+        "type": "hostname",
+        "value": "from-node"
+      },
+      "children": [
+        {
+          "id": "10",
+          "operator": "OR",
+          "children": [
+            {
+              "id": "11",
+              "pattern": {
+                "type": "hostname",
+                "value": "kali.org",
+                "match": "dns"
+              }
+            },
+            {
+              "id": "12",
+              "pattern": {
+                "type": "hostname",
+                "value": "blackhat.com",
+                "match": "dns"
+              }
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "operator": "NOT",
+          "children": [
+            {
+              "id": "45432c83-06f7-47b8-81e9-ba44658ba1c8",
+              "comment": "Ven's machine",
+              "pattern": {
+                "type": "device",
+                "value": "theatregoing-mac"
+              }
+            }
+          ]
+        }
+      ]
+    }

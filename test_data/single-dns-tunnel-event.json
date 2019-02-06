@@ -1,0 +1,41 @@
+{
+  "id": "2c69a0c0-92a1-410c-870f-eb839bdee4fb",
+  "action": "dns_message",
+  "device": "theatregoing-mac",
+  "network": "vpn",
+  "time": "2018-03-29T11:34:13.537Z",
+  "dns_message": {
+    "type": "query",
+    "query": [
+      {
+        "name": "abcdef123456.blah.com",
+        "type": "A",
+        "class": "IN"
+      }
+    ]
+  },
+  "src": [
+    "ipv4:10.8.0.44",
+    "udp:50710",
+    "dns"
+  ],
+  "dest": [
+    "ipv4:8.8.8.8",
+    "udp:53",
+    "dns"
+  ],
+  "location": {
+    "dest": {
+      "iso": "US",
+      "country": "United States",
+      "asnum": 15169,
+      "asorg": "Google LLC",
+      "position": {
+        "lat": 37.751,
+        "lon": -97.822
+      },
+      "accuracy": 1000
+    }
+  },
+  "risk": 0
+}
